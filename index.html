@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home page - Html Assignment</title>
+</head>
+<body>
+	<h1><a href="pages/about.html">About Page</a></h1>
+	<hr>
+	<!-- nav tag -->
+	<nav>
+		<a href="#">HTML</a> |
+		<a href="#">CSS</a> |
+		<a href="#">JavaScript</a> |
+		<a href="#">Python</a>
+	</nav>
+	<!-- noscript tag -->
+	<script>
+		document.write("Hello World!")
+	</script>
+	<noscript>Sorry, your browser does not support JavaScript!</noscript>
+	<br>
+	<!-- video tag -->
+	<video width="1080" controls>
+	  	<source src="video/smile.mp4" type="video/mp4">
+	</video>
+	<!-- object tag -->
+	<object data="images/pexels-pixabay-33045.jpg" width="1080"></object>
+	<!-- ol tag -->
+	<ol>
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk</li>
+	</ol>
+
+	<ol start="50">
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk</li>
+	</ol>
+	<!-- optgroup tag -->
+	<form action="/action_page.php">
+  		<label for="cars">Choose a car:</label>
+  		<select name="cars" id="cars">
+    		<optgroup label="Swedish Cars">
+      			<option value="volvo">Volvo</option>
+      			<option value="saab">Saab</option>
+    		</optgroup>
+    		<optgroup label="German Cars">
+      			<option value="mercedes">Mercedes</option>
+      			<option value="audi">Audi</option>
+    		</optgroup>
+  		</select>
+  		<br><br>
+  		<input type="submit" value="Submit">
+	</form>
+	<!-- option tag -->
+	<label for="cars">Choose a car:</label>
+	<select id="cars">
+  		<option value="volvo">Volvo</option>
+  		<option value="saab">Saab</option>
+  		<option value="opel">Opel</option>
+  		<option value="audi">Audi</option>
+	</select>
+	<!-- output tag -->
+	<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+		<input type="range" id="a" value="50">
+		+<input type="number" id="b" value="25">
+		=<output name="x" for="a b"></output>
+	</form>
+	<!-- pre tag -->
+	<pre>
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+Saepe nisi repudiandae amet perspiciatis. 
+Mollitia quasi deleniti tempora esse adipisci accusantium molestias exercitationem distinctio vitae. 
+Eos, magnam unde omnis fugiat nobis, molestias commodi quibusdam provident a eius! Esse nostrum provident impedit ratione magnam ipsa ad debitis deserunt ullam sequi amet accusamus voluptatibus iste dicta, recusandae ab sint odit ut at eveniet. 
+Quisquam facere quo corporis laboriosam nobis, rerum optio nulla ut odit vero dicta, saepe? Ullam eveniet iusto vero alias obcaecati expedita praesentium sed dolorum velit pariatur consectetur ab impedit nesciunt, illo itaque nisi. 
+Illum in ad fugiat explicabo impedit obcaecati.
+	</pre>
+	<!-- progress tag -->
+	<label for="file">Downloading progress:</label>
+	<progress id="file" value="32" max="100"> 32% </progress>
+	<!-- q tag -->
+	<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q>
+		We hope they succeed.</p>
+	<!-- s tag -->
+	<p><s>Only 50 tickets left!</s></p>
+	<p>SOLD OUT!</p>
+	<!-- samp tag -->
+	<p><samp>File not found.<br>Press F1 to continue</samp></p>
+	<!-- script tag -->
+	<p id="demo"></p>
+	<script>
+		document.getElementById("demo").innerHTML = "Hello JavaScript!";
+	</script> 
+	<!-- section tag -->
+	<section>
+	  	<h2>WWF History</h2>
+	  	<p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+	</section>
+	<!-- select tag -->
+	<form action="/action_page.php">
+		<label for="cars">Choose a car:</label>
+		<select name="cars" id="cars">
+		    <option value="volvo">Volvo</option>
+		    <option value="saab">Saab</option>
+		    <option value="opel">Opel</option>
+		    <option value="audi">Audi</option>
+		</select>
+		<br><br>
+		<input type="submit" value="Submit">
+	</form>
+	<!-- small tag -->
+	<p>This is some normal text.</p>
+	<p><small>This is some smaller text.</small></p>
+	<!-- source tag -->
+	<audio controls>
+  		<source src="audio/Ameer sonar bangla.mp3" type="audio/mpeg">
+	</audio>
+	<!-- span tag -->
+	<p>My mother has <span style="color:blue">blue</span> eyes.</p>
+	<!-- strong tag -->
+	<strong>This text is important!</strong>
+	<!-- sub tag -->
+	<p>H<sub>2</sub>O</p>
+	<!-- sup tag -->
+	<p>(a+b)<sup>2</sup></p>
+	<!-- summary tag -->
+	<details>
+  		<summary>Epcot Center</summary>
+  		<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+	</details>
+	<!-- svg tag -->
+	<svg width="100" height="100">
+	  	<circle cx="50" cy="50" r="40" stroke="#000" stroke-width="4" fill="red" />
+	</svg>
+	<!-- table tag -->
+	<table>
+	  	<tr>
+	    	<th>Month</th>
+	    	<th>Savings</th>
+	  	</tr>
+	  	<tr>
+	    	<td>January</td>
+	    	<td>$100</td>
+	  	</tr>
+	  	<tr>
+	    	<td>February</td>
+	    	<td>$80</td>
+	  	</tr>
+	</table>
+	<!-- tbody tag -->
+	<table>
+  		<thead>
+    		<tr>
+      			<th>Month</th>
+      			<th>Savings</th>
+    		</tr>
+  		</thead>
+  		<tbody>
+    		<tr>
+      			<td>January</td>
+      			<td>$100</td>
+    		</tr>
+    		<tr>
+      			<td>February</td>
+      			<td>$80</td>
+    		</tr>
+  		</tbody>
+  		<tfoot>
+    		<tr>
+      			<td>Sum</td>
+      			<td>$180</td>
+    		</tr>
+  		</tfoot>
+	</table>
+	<!-- textarea tag -->
+	<form action="#">
+		<label for="w3review">Message:</label>
+		<textarea id="message" name="message" rows="10" cols="100">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos dignissimos similique repellat dicta quia debitis eius, quasi vitae, dolorem, facilis, culpa minima quaerat. Unde, perferendis sequi, non officia inventore facilis, necessitatibus itaque consequuntur esse, deleniti tempora dolorum. Alias obcaecati vitae sapiente vero in a adipisci, eligendi fugiat nulla perspiciatis veniam suscipit incidunt non magnam neque, perferendis blanditiis, consectetur corrupti. Enim eveniet eius, minima corrupti fugiat necessitatibus sapiente, nobis sunt molestias fuga velit neque praesentium dolore quam quo officiis et ipsa qui cumque obcaecati, veritatis. Rem, placeat. Vitae nostrum alias eos esse accusamus, quae dolor reiciendis, ab, cum ipsam nemo placeat!
+	  	</textarea>
+	  	<br><br>
+	  	<input type="submit" value="Submit">
+	</form>
+	<!-- time tag -->
+	<p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+	<!-- u tag -->
+	<p>This is some <u>mispeled</u> text.</p>
+	<!-- ul tag -->
+	<ul>
+  		<li>Coffee</li>
+  		<li>Tea</li>
+  		<li>Milk</li>
+	</ul>
+	<!-- var tag -->
+	<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+</body>
+</html>
